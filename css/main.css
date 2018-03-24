@@ -157,12 +157,11 @@
 .section-outlook .outlookMessage {
 	background-color: #222;
     text-align: center;
-    padding-top: 88px;
+    padding-top: 25px;
     margin-top: -1px;
 }
 .section-outlook .outlookMessage  h1{
 	font-family: wf_segoe-ui_light,Segoe UI Light,Segoe WP Light,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
-	perspective: 800px;
 	font-size: 66px;
     color: #fff;
     margin-bottom: 26px;
@@ -311,13 +310,19 @@
     top: -70px;
     bottom: 0;
     left: 0;
+}
+@media only screen and (max-width: 600px) {
+
+
+	.section-outlook .outlookMessage {
+		height: 1050px;
+	}
 
 }
-.section-outlook .footer .footerNav {
-	z-index: 2;
-    position: relative;
 
-}
+
+
+
 
 
 
