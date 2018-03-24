@@ -1,0 +1,38 @@
+.section-outlook .header {
+	background-color: #0078d7;
+	position: relative;
+}
+
+
+.section-outlook .header .headerContainer {
+	padding: 35px 150px 40px 160px;
+}
+.section-outlook .header .headerContainer .headerlogo {
+	float: left;
+	width: 151px;
+	display: block;
+
+
+}
+.section-outlook .header .headerContainer .headermenu {
+	text-align: right;
+	margin-right: 150px;
+
+
+}
+
+
+.section-outlook .header .headerContainer .linkButton {
+	display: inline-block;
+	line-height: 39px;
+	padding: 0 5px;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 100%;
+	color: #fff;
+
+}
+
+.section-outlook .header .headerContainer .linkButton:hover {
+	color: black;
+}
