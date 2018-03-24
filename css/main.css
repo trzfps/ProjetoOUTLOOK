@@ -45,6 +45,7 @@
 	float: left;
 	width: 151px;
 	display: block;
+	cursor: pointer;
 
 
 }
@@ -132,8 +133,9 @@
     text-align: center;
     -webkit-transition: box-shadow .3s;
     transition: box-shadow .3s;
-    margin-left: 40px;
     cursor: pointer;
+    text-decoration: none;
+    margin-left: 40px;
 }
 
 .section-outlook .header .buttonLargeWhite:hover {
