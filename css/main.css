@@ -1,3 +1,39 @@
+@font-face {
+                font-family: "wf_segoe-ui_light";
+                src: local("Segoe UI Light"),
+                local("Segoe WP Light"),
+                url('https://r4.res.office365.com/owa/prem/16.2208.7.2510395/resources/styles/fonts/segoeui-light.woff') format('woff'),
+                url('https://r4.res.office365.com/owa/prem/16.2208.7.2510395/resources/styles/fonts/segoeui-light.ttf') format('truetype');
+                }
+            @font-face {
+            	font-family: "wf_segoe-ui_normal";
+             	src: local("Segoe UI"),
+            	local("Segoe WP"),
+                url('https://r4.res.office365.com/owa/prem/16.2208.7.2510395/resources/styles/fonts/segoeui-regular.woff') format('woff'),
+                url('https://r4.res.office365.com/owa/prem/16.2208.7.2510395/resources/styles/fonts/segoeui-regular.ttf') format('truetype');
+                }
+                @font-face {
+                font-family: "wf_segoe-ui_semibold";
+                src: local("Segoe UI Semibold"),
+                local("Segoe WP Semibold"),
+                url('https://r4.res.office365.com/owa/prem/16.2208.7.2510395/resources/styles/fonts/segoeui-semibold.woff') format('woff'),
+                url('https://r4.res.office365.com/owa/prem/16.2208.7.2510395/resources/styles/fonts/segoeui-semibold.ttf') format('truetype');
+                font-weight: bold;
+                }
+                @font-face {
+                font-family: "wf_segoe-ui_semilight";
+                src: local("Segoe UI Semilight"),
+                local("Segoe WP Semilight"),
+                url('https://r4.res.office365.com/owa/prem/16.2208.7.2510395/resources/styles/fonts/segoeui-semilight.woff') format('woff'),
+                url('https://r4.res.office365.com/owa/prem/16.2208.7.2510395/resources/styles/fonts/segoeui-semilight.ttf') format('truetype');
+
+}
+     h1 {font-family: wf_segoe-ui_light,Segoe UI Light,Segoe WP Light,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
+    font-size: 66px;
+    color: #fff;
+    margin-bottom: 26px;
+    }
+
 .section-outlook .header {
 	background-color: #0078d7;
 	position: relative;
@@ -146,6 +182,29 @@
 	    width: 64%;
     	max-width: 800px;
     	margin: 0 auto;
+}
+.section-outlook .travelMessage  {
+	background-color: snow;
+    text-align: center;
+    margin-top: -300px;
+    position: relative;
+    padding-top: 88px;
+}
+.section-outlook .travelMessage #travelMessageCurve {
+	position: absolute;
+    width: 100%;
+    height: 70px;
+    top: -69px;
+    bottom: 0;
+    left: 0;
+}
+.section-outlook .travelMessage .travelMessageImg {
+    width: 54%;
+    max-width: 690px;
+    margin: 0 auto;
+}
+.section-outlook .travelMessage h1{
+   color: #0078d7;
 }
 
 
