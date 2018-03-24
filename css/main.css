@@ -28,11 +28,7 @@
                 url('https://r4.res.office365.com/owa/prem/16.2208.7.2510395/resources/styles/fonts/segoeui-semilight.ttf') format('truetype');
 
 }
-     h1 {font-family: wf_segoe-ui_light,Segoe UI Light,Segoe WP Light,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
-    font-size: 66px;
-    color: #fff;
-    margin-bottom: 26px;
-    }
+
 
 .section-outlook .header {
 	background-color: #0078d7;
@@ -43,6 +39,7 @@
 
 .section-outlook .header .headerContainer {
 	padding: 35px 150px 40px 160px;
+
 }
 .section-outlook .header .headerContainer .headerlogo {
 	float: left;
@@ -203,8 +200,16 @@
     max-width: 690px;
     margin: 0 auto;
 }
-.section-outlook .travelMessage h1{
-   color: #0078d7;
+.section-outlook .travelMessage .blueColor{
+   	color: #0078d7;
+   	font-family: wf_segoe-ui_light,Segoe UI Light,Segoe WP Light,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
+	perspective: 800px;
+   	font-size: 66px;
+    margin-bottom: 26px;
+    text-align: center;
+}
+.section-outlook .travelMessage .greyColor {
+	color: #8e8e93;
 }
 
 
